@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./packages/images/logo.png"
+      type="image/x-icon"
+    />
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./packages/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- icons -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+
+  </head>
+
+  <body onload="preLoader()">
+
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="./packages/images/logo.png" width="50px" alt="Logo" title="Logo" />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link hover-underline">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link hover-underline">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link hover-underline">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#projects" class="nav__link hover-underline">
+                <i class="uil uil-briefcase-alt nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link hover-underline">
+                <i class="uil uil-message nav__icon"></i>Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <a
+            class="resume-button"
+            href="./Prudhvi_Data_Analyst.pdf"
+            download="Prudhvi-Gudipati-Resume"
+            title="download"
+            >Resume</a
+          >
+        </div>
+        <div class="nav__btns">
+          <i
+            class="uil uil-moon change-theme"
+            style="margin-left: 10px"
+            id="theme-button"
+            title="Theme"
+          ></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+
+              <!-- linkedin -->
+              <a
+                href="https://www.linkedin.com/in/prudhvi-gudipati-6717ba185?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                class="home__social-icon"
+                title="Linkedin"
+              >
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
+
+              <!-- github -->
+              <a
+                href="https://github.com/prudhvi619"
+                target="_blank"
+                class="home__social-icon"
+                title="GitHub"
+              >
+                <i class="uil uil-github-alt"></i>
+              </a>
+            </div>
+
+            <div class="home__data">
+              <span style="font-size: 16px">Hi, my name is</span>
+              <h1 class="home__title">Prudhvi Gudipati</h1>
+              <h5 class="home__subtitle">I design and implement robust Java applications.</h5>
+              <p class="home__description">
+                Hello, my name is Prudhvi Gudipati, and I am an experienced Full Stack Java Developer with over four years in web application development within the banking sector. I specialize in optimizing performance with Java 8 and 11, achieving a 30% improvement in system response times. Proficient in deploying applications on Kubernetes and managing Helm charts, I also create dynamic UIs with React, Redux, and Angular, while leveraging Spring Boot and Microservices for scalable backend solutions. My database management skills span SQL, MongoDB, PostgreSQL, and MySQL, with a focus on optimizing data retrieval. I implement RESTful and SOAP APIs with thorough Swagger OpenAPI documentation, and build CI/CD pipelines using Jenkins and CodeShip to enhance software delivery. My commitment to quality is evident through testing frameworks like Mockito and React Testing Library. I'm passionate about driving innovative solutions and contributing to your team's success.
+              </p>
+              <a
+                href="#contact"
+                class="button button--flex home__button"
+                title="Contact me"
+              >
+                Contact Me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="section about" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <div class="about__data">
+            <p class="about__description">
+              Hello, my name is Prudhvi Gudipati, and I am an experienced Full Stack Java Developer with over four years in web application development within the banking sector. I specialize in optimizing performance with Java 8 and 11, achieving a 30% improvement in system response times. Proficient in deploying applications on Kubernetes and managing Helm charts, I also create dynamic UIs with React, Redux, and Angular, while leveraging Spring Boot and Microservices for scalable backend solutions. 
+            </p>
+            <p class="about__description" style="margin-top: -30px">
+              My database management skills span SQL, MongoDB, PostgreSQL, and MySQL, with a focus on optimizing data retrieval. I implement RESTful and SOAP APIs with thorough Swagger OpenAPI documentation, and build CI/CD pipelines using Jenkins and CodeShip to enhance software delivery. My commitment to quality is evident through testing frameworks like Mockito and React Testing Library. I'm passionate about driving innovative solutions and contributing to your team's success.
+            </p>
+
+            <div class="about__buttons">
+              <a
+                href="./Prudhvi_Data_Analyst.pdf"
+                download="Prudhvi-Gudipati-Resume"
+                class="button button--flex"
+                title="click to download"
+                >Resume<i class="uil uil-download-alt button__icon"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification__section">
+        <h2 class="section__title">Experience</h2>
+        <span class="section__subtitle">My journey</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div
+              class="qualification__button button--flex qualification__active"
+              data-target="#work"
+            >
+              <i class="uil uil-briefcase-alt qualification__icon"></i>
+              Work
+            </div>
+            <div
+              class="qualification__button button--flex"
+              data-target="#education"
+            >
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content" data-content id="education">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">
+                    Master of Science in Computer Science
+                  </h3>
+                  <span class="qualification__subtitle"
+                    >University of Texas, Arlington</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Jan 2022 - Dec 2023
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">
+                    Bachelor of Technology in Computer Science
+                  </h3>
+                  <span class="qualification__subtitle">
+                    Sathyabama Institute of Science and Technology, India
+                  </span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    July 2016 - April 2020
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div
+              class="qualification__content qualification__active"
+              data-content
+              id="work"
+            >
+              <!--==================== Work 3 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Full Stack Java Developer</h3>
+                  <span class="qualification__subtitle"
+                    >BOK Financial Corporation Tulsa, Oklahoma</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Feb 2023 - Present
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== Work 2 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Software Developer</h3>
+                  <span class="qualification__subtitle"
+                    >Value Labs, Hyderabad</span
+                  >
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calendar-alt"></i>
+                    Nov 2018 - Dec 2021
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technologies</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <div class="skills__content skills__open">
+              <div class="skills__list grid">
+                <div class="tech__row">
+                  <!-- Programming Languages -->
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:java" height="40"></iconify-icon>
+                      <h3 class="services__title">Java<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:python" height="40"></iconify-icon>
+                      <h3 class="services__title">Python<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:php" height="40"></iconify-icon>
+                      <h3 class="services__title">PHP<br /></h3>
+                    </div>
+                  </div>
+                
+                  <!-- Frameworks & Libraries -->
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:spring-icon" height="40"></iconify-icon>
+                      <h3 class="services__title">Spring<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="simple-icons:springboot" height="40"></iconify-icon>
+                      <h3 class="services__title">Spring Boot<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:hibernate" height="40"></iconify-icon>
+                      <h3 class="services__title">Hibernate<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:react" height="40"></iconify-icon>
+                      <h3 class="services__title">React<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:angular" height="30"></iconify-icon>
+                      <h3 class="services__title">Angular<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:nodejs" height="40"></iconify-icon>
+                      <h3 class="services__title">Node.js<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:jquery" height="30"></iconify-icon>
+                      <h3 class="services__title">jQuery<br /></h3>
+                    </div>
+                  </div>
+                
+                  <!-- Database Technologies -->
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:oracle" width="120" height="40"></iconify-icon>
+                      <h3 class="services__title">Oracle<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:mysql-icon" height="40"></iconify-icon>
+                      <h3 class="services__title">MySQL<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:mongodb" height="30"></iconify-icon>
+                      <h3 class="services__title">MongoDB<br /></h3>
+                    </div>
+                  </div>
+                
+                  <!-- Web Technologies -->
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="vscode-icons:file-type-html" height="40"></iconify-icon>
+                      <h3 class="services__title">HTML<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="vscode-icons:file-type-css" height="40"></iconify-icon>
+                      <h3 class="services__title">CSS<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:javascript" height="40"></iconify-icon>
+                      <h3 class="services__title">JavaScript<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:typescript" width="120" height="40"></iconify-icon>
+                      <h3 class="services__title">TypeScript<br /></h3>
+                    </div>
+                  </div>
+                
+                  <!-- CI/CD Tools -->
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="simple-icons:jenkins" height="40"></iconify-icon>
+                      <h3 class="services__title">Jenkins<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:docker" height="30"></iconify-icon>
+                      <h3 class="services__title">Docker<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:kubernetes" height="40"></iconify-icon>
+                      <h3 class="services__title">Kubernetes<br /></h3>
+                    </div>
+                  </div>
+                
+                  <!-- Cloud Platforms -->
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:aws" height="40"></iconify-icon>
+                      <h3 class="services__title">AWS<br /></h3>
+                    </div>
+                  </div>
+                
+                  <!-- Version Control Systems -->
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="fa6-brands:git-alt" height="40"></iconify-icon>
+                      <h3 class="services__title">Git<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="ant-design:github-filled" height="40"></iconify-icon>
+                      <h3 class="services__title">GitHub<br /></h3>
+                    </div>
+                  </div>
+                  <div class="skill__box">
+                    <div>
+                      <iconify-icon icon="logos:vercel" width="90" height="40"></iconify-icon>
+                      <h3 class="services__title">Vercel<br /></h3>
+                    </div>
+                  </div>
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== Projects ====================-->
+      <section class="services section" id="projects" style="margin-top: 50px">
+        <h2 class="section__title">Projects</h2>
+        <span class="section__subtitle">My recent works</span>
+
+        <div class="services__container container grid">
+          <!--==================== Project 2 ====================-->
+
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-title">
+                <h3 class="title" title="Title">Medical Center Management System</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  The Medical Center Management System is a web-based solution designed to automate and streamline the operations of SUST Medical Center, replacing manual processes with a digital interface for patient management, medicine distribution, and record-keeping. It provides easy access for both patients and staff, ensuring efficient service delivery and better tracking of medical records and inventory.
+                </p>
+              </div>
+              <div class="project-tech">
+                <h5 title="Tech Stack">
+                  Java &nbsp;|&nbsp; NetBeans &nbsp;|&nbsp; MySQL &nbsp;|&nbsp; Apache Tomcat
+                </h5>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://github.com/prudhvi619/Medical-Center-Management-System"
+                  title="Source Code"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-github button__icon"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!--==================== Project 1 ====================-->
+          <div class="services__content">
+            <div class="portfolio-projects">
+              <div class="project-title">
+                <h3 class="title" title="Title">Supply Chain Management System</h3>
+              </div>
+              <div class="project-desc">
+                <p title="Details">
+                  The Supply Chain Management System is a robust backend solution built on the Activiti engine, designed to streamline and automate the comprehensive management of ship spare parts logistics. It offers a comprehensive framework for executing essential business processes, including real-time coordination of inventory, order management, and task automation through a series of powerful RESTful APIs.
+                </p>
+              </div>
+              <div class="project-tech">
+                <h5 title="Tech Stack">
+                  Java &nbsp;|&nbsp; Spring &nbsp;|&nbsp; MySQL &nbsp;|&nbsp; Maven &nbsp;|&nbsp; Apache Tomcat
+                </h5>
+              </div>
+              <div class="action-area">
+                <a
+                  class="project-action"
+                  href="https://github.com/prudhvi619/Supply-Chain-Management-System"
+                  title="Source Code"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <i class="uil uil-github button__icon"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Let's Get in Touch: Ways to Connect with Me</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-linkedin-alt contact__icon"></i>
+
+              <div>
+                <a
+                  class="hover-underline"
+                  href="https://www.linkedin.com/in/prudhvi-gudipati-6717ba185?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                  style="color: #6a797c"
+                  title="click to open linkedin"
+                >
+                  <h3 class="contact__title">Linkedin</h3>
+                  <span class="contatc__subtitle">@prudhvi-gudipati</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-github-alt contact__icon"></i>
+
+              <div>
+                <a
+                  class="hover-underline"
+                  href="https://github.com/prudhvi619"
+                  target="_blank"
+                  style="color: #6a797c"
+                  title="click to open github"
+                >
+                  <h3 class="contact__title">GitHub</h3>
+                  <span class="contatc__subtitle">@prudhvi</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <a
+                  class="hover-underline"
+                  href="mailto:mail.sanajitjana@gmail.com"
+                  style="color: #6a797c"
+                  title="click to send email"
+                >
+                  <h3 class="contact__title">E-mail</h3>
+
+                  <span class="contatc__subtitle"
+                    >mail.gudipatiprudhvi0282@gmail.com</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <p class="footer__copy">
+          © 2024 Prudhvi Gudipati. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up" title="click to go up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="./packages/js/main.js"></script>
+  </body>
+</html>
